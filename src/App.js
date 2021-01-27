@@ -9,6 +9,7 @@ import AboutUsScreen from "./screens/AboutUsScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import BlogScreen from "./screens/BlogScreen";
+import BlogScreen2 from "./screens/BlogScreen2"
 
 
 function App() {
@@ -34,7 +35,7 @@ let isMobile = (width <= 768);
       <Route exact path="/" component={HomeScreen}/>
       <Route path="/about" component={AboutUsScreen}/>
       <Route path="/product" component={ProductScreen}/>
-      <Route path="/blog" component={BlogScreen}/>
+      <Route path="/blog" component={BlogScreen2}/>
       </Switch>
     </main>
     <Footer/>
