@@ -7,7 +7,8 @@ const Header = () => {
     const modal = useRef(null)
     return (
         <header className="header" id="header">
-            <Link className="header-title" to="/"><h1>PlaceHolder</h1></Link>
+            <nav className="header-nav">
+            <Link className="header-title" to="/"><h1>Markalytics</h1></Link>
             <div className="link-container">
             <ul>
                 <li><Link to="/about">About Us</Link></li>
@@ -19,6 +20,7 @@ const Header = () => {
            <Modal ref={modal}>
             <ContactForm/>
            </Modal>
+           </nav>
         </header>
     )
 }

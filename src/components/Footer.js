@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <footer className="footer-container">
             <div className="logo-brands-container">
-                <h1>Logo</h1>
+                <h1 className="header-title">Markalytics</h1>
                 <div className="brands">
                 <i className="fab fa-facebook"></i>
                 <i className="fab fa-instagram"></i>

@@ -56,7 +56,7 @@ const ProductScreen = () => {
                         <h5>CEO at </h5>
                         </div>
                         <div className="test-text-container">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse eos adipisci doloremque, asperiores vel perferendis magnam nam facilis molestiae distinctio odit, illo obcaecati aut reiciendis excepturi nihil iste quibusdam! Molestias?</p>
+                        <p>The Markalytics team was amazing! They worked with us to </p>
                     </div>
                 </div>
                     

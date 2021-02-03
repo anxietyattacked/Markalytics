@@ -10,7 +10,7 @@ const Hamburger = () => {
     const modal = useRef(null)
     return (
         <>
-        <div className="navbar">
+        <header className="navbar">
             <div className="menu-and-logo">
             <Link to="#" className="menu-bars">
             <i class="fas fa-bars" onClick={showMenu}></i>
@@ -23,7 +23,7 @@ const Hamburger = () => {
                     <ContactForm/>
                     </Modal>
                 </div>
-            </div>
+            </header>
             <nav className={menu ? "nav-menu active" : 'nav-menu'}>
                 <ul onClick={showMenu} className="nav-menu-items">
                     <li className="navbar-toggle">

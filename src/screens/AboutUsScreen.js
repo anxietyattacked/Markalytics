@@ -30,11 +30,26 @@ const AboutUsScreen = () => {
                     <div className="collage-image-container collage-grid-item three"><img className="collage-image" src={collage3} alt="" /></div>
                     <div className="collage-image-container collage-grid-item four"><img className="collage-image" src={collage4} alt="" /></div>
                     <div className="collage-image-container collage-grid-item five"><img className="collage-image" src={collage5} alt="" /></div>
-                    <div className="caption-container collage-grid-item one-cap"><p>This is a caption of the image above. This is just for more characters.</p></div>
-                    <div className="caption-container collage-grid-item two-cap"><p>This is a caption of the image above. This is just for more characters.</p></div>
-                    <div className="caption-container collage-grid-item three-cap"><p>This is a caption of the image above. This is just for more characters.</p></div>
-                    <div className="caption-container collage-grid-item four-cap"><p>This is a caption of the image above. This is just for more characters.</p></div>
-                    <div className="caption-container collage-grid-item five-cap"><p>This is a caption of the image above. This is just for more characters.</p></div>
+                    <div className="caption-container collage-grid-item one-cap">
+                        <hr/>
+                        <div><p>We work with more than 100 Organisations.</p></div>
+                        </div>
+                    <div className="caption-container collage-grid-item two-cap">
+                        <hr/>
+                        <div><p>The world is the limit. We study more than 2 billion people worldwide.</p></div>
+                        </div>
+                    <div className="caption-container collage-grid-item three-cap">
+                        <hr/>
+                        <div><p>We spend half our time on commercial clients. </p></div>
+                        </div>
+                    <div className="caption-container collage-grid-item four-cap">
+                        <hr/>
+                        <div><p>We dedicate a quarter of our time on paid foundation work.</p></div>
+                        </div>
+                    <div className="caption-container collage-grid-item five-cap">
+                        <hr/>
+                        <div><p>The rest? Moonshot work. Curiosity, directed.</p></div>
+                        </div>
                 </div>
                 <div className="collage-caption-container">
                     
