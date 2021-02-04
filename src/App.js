@@ -8,7 +8,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import AboutUsScreen from "./screens/AboutUsScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
-import BlogScreen2 from "./screens/BlogScreen2"
+import BlogScreen from "./screens/BlogScreen"
 import BlogArticle from "./screens/BlogArticle";
 import BlogVideo from "./screens/BlogVideo";
 
@@ -54,7 +54,7 @@ let isMobile = (width <= 768);
       </Route>
       <Route exact path="/blog/our-story"><BlogArticle width={width}/></Route>
       <Route exact path="/blog/breath-slow-down"><BlogArticle width={width}/></Route>
-      <Route path="/blog" component={BlogScreen2}/>
+      <Route path="/blog" component={BlogScreen}/>
       
       </Switch>
     </main>

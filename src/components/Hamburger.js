@@ -13,7 +13,7 @@ const Hamburger = () => {
         <header className="navbar">
             <div className="menu-and-logo">
             <Link to="#" className="menu-bars">
-            <i class="fas fa-bars" onClick={showMenu}></i>
+            <i className="fas fa-bars" onClick={showMenu}></i>
             </Link>
             <h1>Markalytics</h1>
             </div>

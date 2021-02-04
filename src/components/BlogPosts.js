@@ -6,7 +6,7 @@ const BlogPosts = ({posts}) => {
         <div className="cards-container">
         <div className="cards-wrapper">
             <ul className="card-items">
-            {posts.map(post => (
+            {posts.map((post, index) => (
                 <BlogCard
                 src={post.src}
                 text={post.text}
@@ -14,6 +14,7 @@ const BlogPosts = ({posts}) => {
                 path={post.path}
                 type={post.type}
                 category={post.category}
+                key={index}
                 />
             ))}
 

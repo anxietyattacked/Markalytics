@@ -17,9 +17,9 @@ const ProductCard = () => {
                 <img src={crowd} alt="crowd of people" className="product-info-image"></img>
             </div>
             <div className="product-info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quisquam voluptatem adipisci? Voluptates exercitationem nihil, veritatis sunt ducimus earum facere sequi natus hic aliquam eos, expedita voluptatum iusto quidem vitae?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quisquam voluptatem adipisci? Voluptates exercitationem nihil, veritatis sunt ducimus earum facere sequi natus hic aliquam eos, expedita voluptatum iusto quidem vitae?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quisquam voluptatem adipisci? Voluptates exercitationem nihil, veritatis sunt ducimus earum facere sequi natus hic aliquam eos, expedita voluptatum iusto quidem vitae?</p>
+                <p>Markalytics is a marketing and analytics company that works with compaines to create new and unique marketing campaigns. We work closely with our clients to fulfill their needs. We can help with your current marketing campaign or craft a brand new one.</p>
+                <p>Data is just summaries of much larger stories. We at Markalytics use the latest and greatest software tools to get at the larger stories being told. </p>
+                <p>We specialize in creating new and unique marketing campaigns. Marketing is an art. Our team is filled with creative minds ready to tackle even the most challenging of marketing problems. </p>
             </div>
         </div>
     )

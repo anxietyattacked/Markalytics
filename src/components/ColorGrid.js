@@ -15,11 +15,11 @@ const ColorGrid = () => {
             </div>
 
             <div className="our-story-container">
-            <Link to="/blog"><h3 className="color-grid-title">Our Story</h3></Link>
-                <Link to="/blog"><p className="color-arrow">⟶</p></Link>
+            <Link to="/blog/our-story"><h3 className="color-grid-title">Our Story</h3></Link>
+                <Link to="/blog/our-story"><p className="color-arrow">⟶</p></Link>
             </div>
             <div className="read-our-thoughts-container">
-            <Link> <h3 className="color-grid-title">Read Our Thoughts</h3></Link>
+            <Link to="/blog"> <h3 className="color-grid-title">Read Our Thoughts</h3></Link>
             <Link to="/blog"><p className="color-arrow">⟶</p></Link>
             </div>
         </div>

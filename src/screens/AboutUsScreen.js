@@ -17,7 +17,7 @@ const AboutUsScreen = () => {
             <div className="about-blurb-container">
                 <div className="blurb-container" >
                     <h2>We are a <span className="blurb-span">marketing and analytics company</span> dedicated to fulfilling your needs.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae a at tempora explicabo quasi cumque necessitatibus delectus, reiciendis, animi tempore harum? Ex porro tempore libero ab aut! Blanditiis, accusantium temporibus.</p>
+                    <p> Our aim is to understand people better. We specialize in gathering and analyzing data in order to come up with the perfect marketing plan. We have worked with dozens of companies to help them with their marketing needs.  </p>
                 </div>
                 <div className="blurb-image-container">
                     <img className="blurb-image" src={blurbImage} alt="People discussing analytics"/>
@@ -32,23 +32,23 @@ const AboutUsScreen = () => {
                     <div className="collage-image-container collage-grid-item five"><img className="collage-image" src={collage5} alt="" /></div>
                     <div className="caption-container collage-grid-item one-cap">
                         <hr/>
-                        <div><p>We work with more than 100 Organisations.</p></div>
+                        <div><p>We work with more than 20 Organisations.</p></div>
                         </div>
                     <div className="caption-container collage-grid-item two-cap">
                         <hr/>
-                        <div><p>The world is the limit. We study more than 2 billion people worldwide.</p></div>
+                        <div><p>We have studied people from all over the country</p></div>
                         </div>
                     <div className="caption-container collage-grid-item three-cap">
                         <hr/>
-                        <div><p>We spend half our time on commercial clients. </p></div>
+                        <div><p>We spend our time working with clients to understand their needs</p></div>
                         </div>
                     <div className="caption-container collage-grid-item four-cap">
                         <hr/>
-                        <div><p>We dedicate a quarter of our time on paid foundation work.</p></div>
+                        <div><p>We gather and analyze data about people needs, wants, and preferences</p></div>
                         </div>
                     <div className="caption-container collage-grid-item five-cap">
                         <hr/>
-                        <div><p>The rest? Moonshot work. Curiosity, directed.</p></div>
+                        <div><p>We come up with a plan of action to tackle their marketing problem</p></div>
                         </div>
                 </div>
                 <div className="collage-caption-container">
@@ -58,23 +58,23 @@ const AboutUsScreen = () => {
             <div className="culture-container">
                 <div className="culture-head">
                     <h2><span>Our Culture</span></h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, id, corrupti consequuntur quisquam pariatur error et harum dicta, placeat vitae earum enim quae accusantium ipsum numquam distinctio sunt quia. At!</p>
+                    <p>Our company culture values many qualities, but we prioritize honesty, respect and creativity above all else. </p>
                 </div>
                 <div className="culture-caption-container">
                     <div className="culture-caption">
-                        <br/>
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sunt fugiat incidunt architecto ipsum recusandae illum omnis molestias, itaque consequuntur natus excepturi dolorem temporibus eum aliquid nam? Expedita, obcaecati officia?</p>
+                        <hr/>
+                        <h2>Honesty</h2>
+                        <p>Honesty is one of our top qualities we prize as a company. An honest and open environment leads to the best results. </p>
                     </div>
                     <div className="culture-caption">
-                        <br/>
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sunt fugiat incidunt architecto ipsum recusandae illum omnis molestias, itaque consequuntur natus excepturi dolorem temporibus eum aliquid nam? Expedita, obcaecati officia?</p>
+                        <hr/>
+                        <h2>Respect</h2>
+                        <p>Respect for our clients, their customers, and for each other. A little respect goes a long way. </p>
                     </div>
                     <div className="culture-caption">
-                        <br/>
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sunt fugiat incidunt architecto ipsum recusandae illum omnis molestias, itaque consequuntur natus excepturi dolorem temporibus eum aliquid nam? Expedita, obcaecati officia?</p>
+                        <hr/>
+                        <h2>Creativity</h2>
+                        <p>Being able to thinking creativly is the key to a better marketing exprience. </p>
                     </div>
                 </div>
             </div>

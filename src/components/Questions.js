@@ -3,11 +3,12 @@ import React, {useState, useEffect, useRef} from 'react'
 
 
 
+
 const Questions = () => {
-    const questions = ["How Do We Reach Our Customers?","Who Are Our Customers?","third question?"]
+    const questions = ["How Do We Reach Our Customers?","Who Are Our Customers?","How Can We Bring in New Customers?", "What Is Our Marketing Strategy?"]
     const [count, setCount] = useState(0)
     const countRef = useRef(0)
-  
+
 
 useEffect(() => {
 
@@ -21,7 +22,10 @@ useEffect(() => {
             }
             
         
-    }, 2000)
+    }, 2500)
+    return function cleanup() {
+    clearInterval(countInterval)
+    }
 }, [])
 
     return (

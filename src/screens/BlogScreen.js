@@ -1,17 +1,16 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import {Link} from "react-router-dom"
-import blog1 from "../images/hl-blog.jpg"
 import BlogCard from "../components/BlogCard"
 import blogData from '../components/BlogPostData'
 import Pagination from '../components/Pagination'
 import BlogPosts from '../components/BlogPosts'
 
-const BlogScreen2 = () => {
+const BlogScreen = () => {
     const [filterType,setFilterType] = useState("")
     const [filterCategory, setFilterCategory] = useState("")
     const filtered = blogData.filter(posts => posts.type.includes(filterType)).filter(posts => posts.category.includes(filterCategory))
     const [page, setPage] = useState(1)
-    const [pageItems, setPageitems] = useState(8)
+    const [pageItems] = useState(8)
     
     
 
@@ -47,9 +46,9 @@ const BlogScreen2 = () => {
                     <h2><i className="fas fa-star"></i>Staff Picks</h2>
                   <ul>
                         <li className="list-element"><Link to="blog/our-story">Markalytics: Our Story</Link></li>
-                        <li className="list-element"><Link>Breathe: Slow Down and Relax</Link></li>
-                        <li className="list-element"><Link>Markalytics: Our Story</Link></li>
-                        <li className="list-element"><Link>mdwad dawdo dowaoop</Link></li>
+                        <li className="list-element"><Link to='/blog/breath-slow-down'>Breathe: Slow Down and Relax</Link></li>
+                        <li className="list-element"><Link to="/blog">Markalytics: Our Story</Link></li>
+                        <li className="list-element"><Link to="/blog">mdwad dawdo dowaoop</Link></li>
                  </ul>  
                 </div>
             </div>
@@ -84,4 +83,4 @@ const BlogScreen2 = () => {
     )
 }
 
-export default BlogScreen2
+export default BlogScreen

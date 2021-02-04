@@ -2,7 +2,6 @@ import React, {useRef} from 'react'
 import {Link} from "react-router-dom"
 import Modal from './Modal'
 import ContactForm from "./ContactForm"
-import Header from './Header'
 import ScrollToTop from './ScrollToTop'
 
 const Footer = () => {
@@ -26,7 +25,7 @@ const Footer = () => {
            </Modal>
             </div>
             <div className="backtotop-container">
-                    <Link >Back to Top</Link>
+                    <Link to="#" >Back to Top</Link>
                 </div>
         </footer>
     )

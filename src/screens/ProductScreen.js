@@ -36,15 +36,15 @@ const ProductScreen = () => {
             <div className="product-details-container">
                 <div className="details-container">
                 <i className="far fa-chart-bar detail-icon"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi optio dolores perspiciatis, repellendus asperiores qui sed enim, officiis, veniam deleniti cumque saepe neque dolorem nostrum at accusamus voluptates tempora est?</p>
+                <p>We gather information about your customers and potential customers. We do this to get a better understanding of their wants, needs, and preferences. This is a crutial step in creating a plan of action.</p>
                 </div>
                 <div className="details-container center-details">
                 <i className="fas fa-users detail-icon"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium architecto ex, perferendis veritatis nulla blanditiis consectetur porro sapiente qui maiores ducimus optio nesciunt soluta officia sint ipsa cum! Porro, tempore!</p>
+                <p>We analyize and strategize to come up with a plan of action in order to reach people. This process helps narrow down a message with a broad appeal.</p>
                 </div>
                 <div className="details-container">
                 <i className="fas fa-heart detail-icon"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quia tenetur debitis saepe, quos aperiam nulla doloribus magnam reiciendis iste voluptatibus possimus eligendi, fugiat a repellendus esse nisi vel soluta.</p>
+                <p>People will connect with your product and brand. We have seen dramatic tranformations after our campaigns are done. Leading to increase sales and business.</p>
                 </div>
             </div>
             <div className="product-testimonials-container">
@@ -53,10 +53,10 @@ const ProductScreen = () => {
                     <div className="test-person-container">
                         <img className="test1" src={test1} alt="CEO of "/>
                         <h5>Brian Douglas</h5>
-                        <h5>CEO at </h5>
+                        <h5>CEO at Alamine</h5>
                         </div>
                         <div className="test-text-container">
-                        <p>The Markalytics team was amazing! They worked with us to </p>
+                        <p>The Markalytics team was amazing! They worked with us to  </p>
                     </div>
                 </div>
                     

@@ -14,7 +14,7 @@ const Pagination = ({currentPage, totalPosts, paginate, pageItems}) => {
             <ul className="page-list">
             {pageNumbers.map(page => (
                 
-                   <Link onClick={() => paginate(page)} href='!#' className='page-link'>
+                   <Link key={page} onClick={() => paginate(page)} to="/blog/!#" href='!#' className='page-link' >
               <li key={page} className={`pages ${currentPage === page ? "current-page" : null}`}>       
               {page}
               </li>  
