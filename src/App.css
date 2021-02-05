@@ -947,7 +947,8 @@ opacity: .3;
 }
 /* Blog Filter */
 .filter-container {
-display: flex;
+display: grid;
+grid-template-columns: repeat(3, minmax(10px, 1fr));
 padding: 2rem 0;
 background-color: var(--darkbg);
 
@@ -1316,9 +1317,6 @@ display: flex;
     border-top: .13rem solid rgba(128, 128, 128, 0.123);
   }
   /* Testimonials */
-  .test-card {
-  
-  } 
 .test-person-container {
   padding: 2rem 1rem;
 }
@@ -1327,8 +1325,23 @@ display: flex;
 /* Blog Hero */
 .blog-hero-container {
   grid-template-columns: repeat(1, minmax(10px, 1fr));
+  
 }
+/* Blog filter */
+.filter-container {
+  grid-template-columns: repeat(2 , minmax(10px, 1fr));
+  place-content: center;
+} 
+.filter-content-all, .filter-content-category, .filter-content-type{
+  place-content: center;
+  margin: 0;
+}
+.filter-content-all {
+  grid-column: span 2;
+}
+
 /* Blog Cards */
+
 .cards-wrapper .card-items {
   grid-template-columns: repeat(1, minmax(10px, 1fr));
 }
