@@ -1331,6 +1331,7 @@ display: flex;
 .filter-container {
   grid-template-columns: repeat(2 , minmax(10px, 1fr));
   place-content: center;
+  padding: 1rem 2rem;
 } 
 .filter-content-all, .filter-content-category, .filter-content-type{
   place-content: center;
@@ -1338,6 +1339,7 @@ display: flex;
 }
 .filter-content-all {
   grid-column: span 2;
+;
 }
 
 /* Blog Cards */
