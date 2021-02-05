@@ -47,8 +47,8 @@ const BlogScreen = () => {
                   <ul>
                         <li className="list-element"><Link to="blog/our-story">Markalytics: Our Story</Link></li>
                         <li className="list-element"><Link to='/blog/breath-slow-down'>Breathe: Slow Down and Relax</Link></li>
-                        <li className="list-element"><Link to="/blog">Markalytics: Our Story</Link></li>
-                        <li className="list-element"><Link to="/blog">mdwad dawdo dowaoop</Link></li>
+                        <li className="list-element"><Link to="/blog/video-2">Relax and Explore the Ocean</Link></li>
+                        <li className="list-element"><Link to="/blog/video-3">The Secret Behind Coca-Cola Marketing Strategy</Link></li>
                  </ul>  
                 </div>
             </div>

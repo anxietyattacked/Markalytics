@@ -15,7 +15,7 @@ const ProductScreen = () => {
         <div>
             <div className="product-hero-container">
             <div className="product-hero-text-container"> 
-                    <h2>We <span className="product-text-analytics">analyze</span> and <span className="product-text-marketing">strategize</span> to help achieve your goals</h2>
+                    <h2>We <span className="product-text-analytics">analyze</span> and <span className="product-text-marketing">strategize</span> to help your company achieve its goals</h2>
                     <div className="product-btn-container">
                     <button className="product-contact-btn" onClick={() => modal.current.open()}>Contact Us Now</button>
                     </div>
@@ -56,7 +56,7 @@ const ProductScreen = () => {
                         <h5>CEO at Alamine</h5>
                         </div>
                         <div className="test-text-container">
-                        <p>The Markalytics team was amazing! They worked with us to  </p>
+                        <p>The Markalytics team was amazing! We are a small but growing startup that needed some extra help marketing. Since working with Markalytics we have seen a massive increase in sales and interest in our business </p>
                     </div>
                 </div>
                     
@@ -67,7 +67,7 @@ const ProductScreen = () => {
                         <h5>CTO of Delmo</h5>
                     </div>
                     <div className="test-text-container">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, facere maiores voluptatum, atque distinctio obcaecati quo error reiciendis, soluta provident eaque blanditiis vel assumenda cupiditate! Suscipit iusto harum optio ipsa?</p>
+                        <p>Working with Markalytics with was incredibly easy. They did most of the heavylifting allowing us to focus on improving or product. They listened to us when we had concerns and adjusted accordingly. </p>
                     </div>
                 </div>
                 <div  className="test-card">
@@ -77,7 +77,7 @@ const ProductScreen = () => {
                         <h5>COO of Inkphonics</h5>
                     </div>
                     <div className="test-text-container">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quasi magni, architecto quos laudantium error consequatur impedit dolorem repellendus consectetur deserunt est dolore dolores facere reprehenderit sed? Unde, dolor corrupti!</p>
+                        <p>We came to Markalytics for their analytics team. They were able to give us more insight into our users preferences, which helped us design better products. We will definately be working with Markalytics again.</p>
                     </div>
                 </div>
             </div>

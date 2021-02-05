@@ -37,20 +37,30 @@ let isMobile = (width <= 768);
       <Route path="/about" component={AboutUsScreen}/>
       <Route path="/product" component={ProductScreen}/>
       <Route exact path="/blog/video-1"><BlogVideo 
-      src={"https://www.youtube.com/embed/IV-WQSgeWEc"}
-      width={width}/>
+      src={"https://www.youtube.com/embed/CUaybv1jdHw"}
+      width={width}
+      title={"Relaxing Snow Footage"}
+      />
+      
       </Route>
       <Route exact path="/blog/video-2"><BlogVideo 
       src={"https://www.youtube.com/embed/PC1XCR8r8sY"}
-      width={width}/>
+      width={width}
+      title={"Relax and Explore the Ocean"}
+      />
       </Route>
       <Route exact path="/blog/video-3"><BlogVideo 
-      src={"https://www.youtube.com/embed/IV-WQSgeWEc"}
-      width={width}/>
+      src={"https://www.youtube.com/embed/XhMVWzVXNNk"}
+      width={width}
+      title={"The Secret Behind Coca-Cola Marketing Strategy"}
+      />
+      
       </Route>
       <Route exact path="/blog/video-4"><BlogVideo 
-      src={"https://www.youtube.com/embed/IV-WQSgeWEc"}
-      width={width}/>
+      src={"https://www.youtube.com/embed/WNCl-69POro"}
+      width={width}
+      title={"Enjoy the Relaxing Sight and Sounds of a River"}
+      />
       </Route>
       <Route exact path="/blog/our-story"><BlogArticle width={width}/></Route>
       <Route exact path="/blog/breath-slow-down"><BlogArticle width={width}/></Route>
