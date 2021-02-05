@@ -17,7 +17,7 @@ const ProductScreen = () => {
             <div className="product-hero-text-container"> 
                     <h2>We <span className="product-text-analytics">analyze</span> and <span className="product-text-marketing">strategize</span> to help achieve your goals</h2>
                     <div className="product-btn-container">
-                    <button className="product-contact-btn" onClick={() => modal.current.open()}>Contact Us</button>
+                    <button className="product-contact-btn" onClick={() => modal.current.open()}>Contact Us Now</button>
                     </div>
                     
             <Modal ref={modal}>
@@ -40,7 +40,7 @@ const ProductScreen = () => {
                 </div>
                 <div className="details-container center-details">
                 <i className="fas fa-users detail-icon"></i>
-                <p>We analyize and strategize to come up with a plan of action in order to reach people. This process helps narrow down a message with a broad appeal.</p>
+                <p>We analyze and strategize to come up with a plan of action in order to reach people. This process helps narrow down a message with a broad appeal.</p>
                 </div>
                 <div className="details-container">
                 <i className="fas fa-heart detail-icon"></i>

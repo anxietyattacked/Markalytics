@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import {Link} from "react-router-dom"
-import BlogCard from "../components/BlogCard"
-import blogData from '../components/BlogPostData'
-import Pagination from '../components/Pagination'
-import BlogPosts from '../components/BlogPosts'
+import BlogCard from "../components/Blog/BlogCard"
+import blogData from '../components/Blog/BlogPostData'
+import Pagination from '../components/Blog/Pagination'
+import BlogPosts from '../components/Blog/BlogPosts'
 
 const BlogScreen = () => {
     const [filterType,setFilterType] = useState("")

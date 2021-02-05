@@ -1,8 +1,8 @@
 import React from 'react'
-import HeroCard from "../components/HeroCard"
-import ProductCard from "../components/ProductCard"
-import Questions from "../components/Questions"
-import ColorGrid from "../components/ColorGrid"
+import HeroCard from "../components/Homescreen/HeroCard"
+import ProductCard from "../components/Homescreen/ProductCard"
+import Questions from "../components/Homescreen/Questions"
+import ColorGrid from "../components/Homescreen/ColorGrid"
 
 const HomeScreen = () => {
     return (

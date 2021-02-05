@@ -26,7 +26,7 @@ useEffect(() => {
     return function cleanup() {
     clearInterval(countInterval)
     }
-}, [])
+}, )
 
     return (
         <div className="question-container">

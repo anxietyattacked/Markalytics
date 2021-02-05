@@ -28,7 +28,7 @@ const Hamburger = () => {
                 <ul onClick={showMenu} className="nav-menu-items">
                     <li className="navbar-toggle">
                         <Link to="#" className="menu-bars">
-                            <i class="fas fa-times"></i>
+                            <i className="fas fa-times"></i>
                         </Link>
                     </li>
                     <li className="nav-text"><Link to="/">Home</Link></li>

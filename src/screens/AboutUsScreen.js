@@ -62,18 +62,18 @@ const AboutUsScreen = () => {
                 </div>
                 <div className="culture-caption-container">
                     <div className="culture-caption">
-                        <hr/>
                         <h2>Honesty</h2>
+                 
                         <p>Honesty is one of our top qualities we prize as a company. An honest and open environment leads to the best results. </p>
                     </div>
                     <div className="culture-caption">
-                        <hr/>
                         <h2>Respect</h2>
+              
                         <p>Respect for our clients, their customers, and for each other. A little respect goes a long way. </p>
                     </div>
                     <div className="culture-caption">
-                        <hr/>
                         <h2>Creativity</h2>
+                
                         <p>Being able to thinking creativly is the key to a better marketing exprience. </p>
                     </div>
                 </div>

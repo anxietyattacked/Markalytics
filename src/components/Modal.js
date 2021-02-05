@@ -29,7 +29,7 @@ useImperativeHandle(ref, () => ({
             <div className={`modal ${fade ? 'modal-fade' : ''}`}>
               <div className="modal-overlay" onClick={close} />
               <span role="button" className="modal-close" aria-label="close" onClick={close}>
-              <i class="fas fa-times"></i>
+              <i className="fas fa-times"></i>
               </span>
               <div className="modal-body">{children}</div>
             </div>

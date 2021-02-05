@@ -2,7 +2,7 @@ import React, {useRef} from 'react'
 import {Link} from "react-router-dom"
 import Modal from './Modal'
 import ContactForm from "./ContactForm"
-import ScrollToTop from './ScrollToTop'
+
 
 const Footer = () => {
     const modal = useRef(null)

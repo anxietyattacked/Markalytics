@@ -100,7 +100,7 @@ align-items: center;
   background-clip: text;
 }
 .hamburger-contact-btn {
-  color: #756e6e;
+ 
   background-color: var(--primary-color);
   color: #ffffff;
   font-size: .8rem;
@@ -113,7 +113,7 @@ align-items: center;
 }
 .nav-menu {
   background-color: var(--darkbg);
-  width: 40vw;
+  width: 60vw;
   height: 100vh;
   display: flex;
   justify-content: flex-start;
@@ -369,7 +369,7 @@ background-position: center;
   align-items: center;
   background: 
   linear-gradient(rgba(170, 44, 69, 0.75),rgba(170, 44, 69, 0.75)), 
-  url('./images/luke-chesser-JKUTrJ4vK00-unsplash.jpg');
+  url('./images/collage-4.jpg');
   background-color: rgb(170, 44, 69);
   background-size: cover;
   background-repeat: no-repeat;
@@ -539,9 +539,6 @@ box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.37);
   display: flex;
   flex-direction: column;
 }
-.contact-form input {
-
-}
 .label-div label {
  margin-right: 1.5rem;
  color: #756e6e;
@@ -660,9 +657,6 @@ object-fit: contain;
 }
 .caption-container div>p {
   color: var(--darkbg-text);
-
-
-  
 }
 .caption-container hr {
   height: .2rem;
@@ -699,8 +693,10 @@ object-fit: contain;
   font-size: 1.8rem;
 }
 .culture-caption-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10px, 1fr));
   background-color: var(--darkbg);
+  padding: 2rem 0;
 }
 .culture-caption {
   display: flex;
@@ -708,14 +704,25 @@ object-fit: contain;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 1rem;
-  flex: 1 1 33%
+  position: relative;
+  padding: 0 1rem;
 }
+
 .culture-caption h2 {
-color: var(--darkbg-text)
+color: var(--darkbg-text);
+font-size: 1.8rem;
+top: 0;
+border-bottom: 1rem solid rgba(109, 111, 202, 1);
+color: white;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
 }
 .culture-caption p {
-  color: var(--darkbg-text)
+  color: var(--darkbg-text);
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
   }
 
 /* Product Page */
@@ -741,14 +748,11 @@ display: flex;
 justify-content: center;
 }
 .product-contact-btn {
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: white;
   background-color: var(--primary-color);
   padding: 2rem;
   font-size: 2rem;
-}
-.product-contact-btn:hover {
-  
 }
 .hero-image-container {
  display: flex;
@@ -1280,6 +1284,16 @@ display: flex;
   }
 .five-cap {
   order: 10;
+  }
+  /* about us culture */
+  .culture-head {
+    padding: 7rem 4rem;
+  }
+  .culture-caption-container {
+  grid-template-columns: repeat(1, minmax(10px, 1fr));
+  }
+  .culture-caption {
+    padding: 0 2rem;
   }
   /* Product Page */
   /* product hero */

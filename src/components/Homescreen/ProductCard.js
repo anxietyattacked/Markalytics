@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import image from "../images/undraw_financial_data_es63.svg"
-import crowd from "../images/davide-ragusa-gcDwzUGuUoI-unsplash.jpg"
+import image from "../../images/undraw_financial_data_es63.svg"
+import crowd from "../../images/davide-ragusa-gcDwzUGuUoI-unsplash.jpg"
 
 const ProductCard = () => {
     return (

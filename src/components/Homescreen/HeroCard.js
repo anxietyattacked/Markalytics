@@ -1,6 +1,6 @@
 import React from 'react'
-import video from "../images/mixkit-street-with-people-walking-at-dusk-3428-1(1).mp4"
-import image from "../images/screenshot-people-waling-at-dusk.jpg"
+import video from "../../images/mixkit-street-with-people-walking-at-dusk-3428-1(1).mp4"
+import image from "../../images/screenshot-people-waling-at-dusk.jpg"
 
 const HeroCard = () => {
     return (
