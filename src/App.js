@@ -70,7 +70,7 @@ let isMobile = (width <= 768);
       by={articleContent[0].by}
       content={articleContent[0].content}
       /></Route>
-      <Route exact path="/blog/breath-slow-down"><BlogArticle 
+      <Route exact path="/blog/breathe-slow-down"><BlogArticle 
       width={width}
       title={articleContent[1].title}
       src={articleContent[1].src}
