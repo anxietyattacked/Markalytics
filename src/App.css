@@ -1246,7 +1246,7 @@ grid-template-columns: repeat(10, minmax(10px, 1fr));
   /* HomeScreen */
   /* Hero */
   .hero-div {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     position: relative;
       background: url('./images/screenshot-people-waling-at-dusk.jpg');
