@@ -17,8 +17,8 @@ const BlogArticle = ({ title, by, content, width, src, src2}) => {
                 <article className="blog-article">
                 <h2>{title}</h2>
                 <h4>{by}</h4>
-                {content.map(p => (
-                    <p>{p}</p>
+                {content.map((p,index) => (
+                    <p key={index}>{p}</p>
                 ))}
                 </article>
                 </div>

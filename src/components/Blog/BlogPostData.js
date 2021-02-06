@@ -42,7 +42,7 @@ const blogData = [
     {
         src:"/images/vidblog-3.jpg",
         text:"Person enjoying a cocc-cola in the artic",
-        title:"The Secret Behind Coca-Cola Marketing Strategy",
+        title:"The Secret Behind Coca-Cola's Marketing Strategy",
         path:"/blog/video-3",
         type:"video",
         category:"musings"

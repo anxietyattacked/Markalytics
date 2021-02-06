@@ -53,7 +53,7 @@ let isMobile = (width <= 768);
       <Route exact path="/blog/video-3"><BlogVideo 
       src={"https://www.youtube.com/embed/XhMVWzVXNNk"}
       width={width}
-      title={"The Secret Behind Coca-Cola Marketing Strategy"}
+      title={"The Secret Behind Coca-Cola's Marketing Strategy"}
       />
       
       </Route>
