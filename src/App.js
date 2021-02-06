@@ -67,6 +67,7 @@ let isMobile = (width <= 768);
       width={width} 
       title={articleContent[0].title}
       src={articleContent[0].src}
+      src2={articleContent[0].src2}
       by={articleContent[0].by}
       content={articleContent[0].content}
       /></Route>
@@ -74,8 +75,10 @@ let isMobile = (width <= 768);
       width={width}
       title={articleContent[1].title}
       src={articleContent[1].src}
+      src2={articleContent[1].src2}
       by={articleContent[1].by}
       content={articleContent[1].content}
+  
       /></Route>
       <Route path="/blog" component={BlogScreen}/>
       

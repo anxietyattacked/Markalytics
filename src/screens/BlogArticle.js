@@ -2,13 +2,14 @@ import React from 'react'
 import ShareLinks from '../components/ShareLinks'
 
 
-const BlogArticle = ({ title, by, content, width, src}) => {
+const BlogArticle = ({ title, by, content, width, src, src2}) => {
+    let isMobile = (width <= 768);
     return (
         <div>
             <div className="blog-article-container">
               <div className="blog-article-hero-container">
                     <div className="blog-article-image-container">
-                        <img className="blog-article-image" src={src} alt=""/>
+                        <img className="blog-article-image" src={isMobile ? src2 : src} alt=""/>
                     </div>
                </div>
                <div className="article-and-link-container">
