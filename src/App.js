@@ -11,6 +11,7 @@ import ProductScreen from "./screens/ProductScreen";
 import BlogScreen from "./screens/BlogScreen"
 import BlogArticle from "./screens/BlogArticle";
 import BlogVideo from "./screens/BlogVideo";
+import articleContent from "./components/Blog/articleContent";
 
 
 function App() {
@@ -62,8 +63,20 @@ let isMobile = (width <= 768);
       title={"Enjoy the Relaxing Sight and Sounds of a River"}
       />
       </Route>
-      <Route exact path="/blog/our-story"><BlogArticle width={width}/></Route>
-      <Route exact path="/blog/breath-slow-down"><BlogArticle width={width}/></Route>
+      <Route exact path="/blog/our-story"><BlogArticle 
+      width={width} 
+      title={articleContent[0].title}
+      src={articleContent[0].src}
+      by={articleContent[0].by}
+      content={articleContent[0].content}
+      /></Route>
+      <Route exact path="/blog/breath-slow-down"><BlogArticle 
+      width={width}
+      title={articleContent[1].title}
+      src={articleContent[1].src}
+      by={articleContent[1].by}
+      content={articleContent[1].content}
+      /></Route>
       <Route path="/blog" component={BlogScreen}/>
       
       </Switch>
