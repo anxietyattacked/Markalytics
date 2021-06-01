@@ -25,7 +25,7 @@ const Footer = () => {
            </Modal>
             </div>
             <div className="backtotop-container">
-                    <Link to="#" >Back to Top</Link>
+                    <a href={"#top" || "#nav"} >Back to Top</a>
                 </div>
         </footer>
     )

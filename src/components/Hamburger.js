@@ -10,7 +10,7 @@ const Hamburger = () => {
     const modal = useRef(null)
     return (
         <>
-        <header className="navbar">
+        <header id="top" className="navbar">
             <div className="menu-and-logo">
             <Link to="#" className="menu-bars">
             <i className="fas fa-bars" onClick={showMenu}></i>

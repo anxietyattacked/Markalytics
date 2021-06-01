@@ -6,7 +6,7 @@ import Modal from "./Modal"
 const Header = () => {
     const modal = useRef(null)
     return (
-        <header className="header" id="header">
+        <header className="header" id="nav">
             <nav className="header-nav">
             <Link className="header-title" to="/"><h1>Markalytics</h1></Link>
             <div className="link-container">
