@@ -1,3 +1,28 @@
+<h1 align="center">Markalytics</h1>
+
+<p align="center">Marketing and Analytics Company Website and Blog</p>
+
+## Links
+
+- [Repo](https://github.com/anxietyattacked/Markalytics "Markalytics Repo")
+
+- [Live](https://dazzling-chandrasekhar-be3f8e.netlify.app/ "Live View")
+## Built With
+
+- JavaScript
+- React
+- React Router
+- HTML
+- CSS
+## Screenshots
+
+![Home Page](/screenshots/1.png "Home Page")
+
+![](/screenshots/2.png)
+
+![](/screenshots/3.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
