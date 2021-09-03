@@ -16,7 +16,7 @@
 - CSS
 ## Screenshots
 
-![Home Page](/screenshots/1.png "Home Page")
+![Home Page](/public/images/Markalytics.png "Home Page")
 
 ![](/screenshots/2.png)
 
